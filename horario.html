@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ISSM</title>
+
+    <style>
+        * {
+            font-size: 0.95rem;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        header {
+            height: 70px;
+            background-color: #006ba1;
+            text-align: justify;
+            display: flex;
+            justify-content: space-between;
+            padding: 1%;
+        }
+        
+        body {
+            background-color: #fefec8;
+        }
+        
+        header>* {
+            height: 100%;
+            font-size: 3rem;
+            color: #eee;
+        }
+        
+        header h1 {
+            vertical-align: middle;
+        }
+        
+        table {
+            border-spacing: 0px;
+            border-radius: 20px;
+            margin: 0 auto;
+            width: 80%;
+            margin-top: 2rem;
+            background-color: #00000086;
+            border-color: black;
+            color: #eee;
+        }
+        
+        table thead tr th {
+            font-weight: bold;
+            font-size: 1.5rem;
+            background-color: #6699cc;
+        }
+        
+        #encabezadoTabla {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-color: #006ba1;
+        }
+        
+        table tbody tr:last-child td:first-child {
+            border-bottom-left-radius: 20px;
+        }
+        
+        table tbody tr:last-child td:last-child {
+            border-bottom-right-radius: 20px;
+        }
+        
+        .nomClass {
+            display: block;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        
+        table tbody tr td:first-child {
+            font-weight: bold;
+            font-size: 1rem;
+            text-align: center;
+            width: 10%;
+            background-color: #6699cc;
+        }
+        
+        .num {
+            font-size: 1.2rem;
+        }
+        
+        td a {
+            text-decoration: none;
+            color: #eee;
+        }
+        
+        tr:not(:nth-child(6)) td:not(:first-child) span:last-child {
+            display: block;
+            text-align: right;
+            font-size: 0.7rem;
+            margin-top: 1rem;
+            font-style: italic;
+        }
+        
+        tr:nth-child(6) {
+            background-color: rgb(102, 100, 100);
+            text-align: center;
+        }
+        
+        td:not(:first-child) {
+            width: 18%;
+            cursor: pointer;
+        }
+        
+        td {
+            padding: 0.4rem;
+        }
+        
+        .life_science {
+            background-color: rgba(76, 212, 76, 0.705);
+        }
+        
+        .writing {
+            background-color: rgba(255, 0, 0, 0.514);
+        }
+        
+        .reading {
+            background-color: rgba(172, 65, 172, 0.589);
+        }
+        
+        .ibec {
+            background-color: rgb(185, 185, 185);
+        }
+        
+        .ciencias_sociales {
+            background-color: rgb(87, 87, 238);
+        }
+        
+        .art {
+            background: linear-gradient(110deg, #fa4f4fa6 60%, #ffed4b9d 60%);
+            background: radial-gradient(circle, #e9671c, #dbe91c);
+        }
+        
+        .espanol {
+            background-color: rgba(6, 15, 139, 0.514);
+        }
+        
+        .religion {
+            background-color: rgba(165, 42, 42, 0.555);
+        }
+        
+        .language {
+            background-color: rgba(255, 255, 0, 0.521);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="http://salesianosanmiguel.edu.hn/wp-content/uploads/2019/11/sm1.png" alt="imagen del tigre">
+        <h1>Instituto Salesiano San Miguel</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Escudo_del_Instituto_Salesiano_San_Miguel.png" alt="escudo del colegio">
+    </header>
+
+    <main>
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th colspan="8" id="encabezadoTabla">
+                        Horario de Clases 4to "A"
+                    </th>
+                </tr>
+                <tr>
+                    <th>Hora</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="num">1</span>
+                        <br>
+                        <span class="hour">7:00 - 7:40</span>
+                    </td>
+                    <td class="life_science clase">
+                        <span class="nomClass">Life Science</span>
+                        <br>
+                        <a href="https://zoom.us/j/9948943393?pwd=V0lmWFRRL0R6Tm56QTdRUHNoMWI3QT09">Access class</a>
+                        <br>
+                        <span>ID: 717 205 1775</span>
+                        <br>
+                        <span>Password: ISSM4A</span>
+                        <br>
+                        <span>Teacher: Miriam Galeano Gaekel</span>
+                    </td>
+
+                    <td class="writing clase">
+                        <span class="nomClass">Writing</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4794982985?pwd=OEZReVpTZ2JuUFVuaXNvbE8yU1Z0dz09">Access class</a>
+                        <br>
+                        <span>ID: 479 498 2985</span>
+                        <br>
+                        <span>Password: 3M1mfk</span>
+                        <br>
+                        <span>Teacher: Mariana Liz Palacios</span>
+                    </td>
+
+                    <td class="reading clase">
+                        <span class="nomClass">Reading</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/77052873665?pwd=RGhNWHBDcTA2UGI1UVFPcWFEZ2Y1QT09">Access class</a>
+                        <br>
+                        <span>ID:  770 5287 3665</span>
+                        <br>
+                        <span>Password: ISSM</span>
+                        <br>
+                        <span>Teacher: Amarilis Suyapa Lopez Ortiz</span>
+                    </td>
+
+                    <td class="ibec clase">
+                        <span class="nomClass">IBEC</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/71031917834?pwd=aXBvN0VadHpGL3orUVV6RjBYQjZQZz09">Access class</a>
+                        <br>
+                        <span>ID: 710 3191 7834</span>
+                        <br>
+                        <span>Password: 0qtxGd</span>
+                        <br>
+                        <span>Teacher: Karen Vanessa Bonilla</span>
+                    </td>
+
+                    <td class="ciencias_sociales clase">
+                        <span class="nomClass">Ciencias Sociales</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/74620028715?pwd=WWNiQW9LQ1plcTN1Y3cxd2RYcVkyQT0">Access class</a>
+                        <br>
+                        <span>ID: 746 2002 8715</span>
+                        <br>
+                        <span>Password: CCSS16</span>
+                        <br>
+                        <span>Teacher: María Elena Jiménez</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="num">2</span>
+                        <br>
+                        <span class="hour">8:00 - 8:40</span>
+                    </td>
+                    <td class="robotica clase">
+                        <span class="nomClass">Robótica</span>
+                        <br>
+                        <a href="https://us02web.zoom.us/j/8621969834?pwd=bUl0ZlVSZlZUZEd2aFJMUzh3V0tiUT09">Access class</a>
+                        <br>
+                        <span>ID: 862 196 9834</span>
+                        <br>
+                        <span>Password: robotica</span>
+                        <br>
+                        <span>Teacher: Alex Gonzále</span>
+                    </td>
+
+                    <td class="computacion clase">
+                        <span class="nomClass">Computación</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/2608242251">Access class</a>
+                        <br>
+                        <span>ID: 260 824 2251</span>
+                        <br>
+                        <span>Password: tk2021ssm</span>
+                        <br>
+                        <span>Teacher: Lesli Ordoñez</span>
+                    </td>
+
+                    <td class="catequesis clase">
+                        <span class="nomClass">Catequesis</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/75674297138?pwd=T2lNYzJ6OGt5ZEJyOHhhZWlvaytHZz09">Access class</a>
+                        <br>
+                        <span>ID: 756 7429 7138</span>
+                        <br>
+                        <span>Password: SfARt2</span>
+                        <br>
+                        <span>Teacher: Leysis Alvarado</span>
+                    </td>
+
+                    <td class="social_studies clase">
+                        <span class="nomClass">Social Studies</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/9480801520?pwd=Q2dEQ214bVNUNi9lQm9FK3dVcC9SZz09">Access class</a>
+                        <br>
+                        <span>ID: 948 080 1520</span>
+                        <br>
+                        <span>Password: 9Dk3s7</span>
+                        <br>
+                        <span>Teacher: Linda Ester</span>
+                    </td>
+
+                    <td class="speaking">
+                        <span class="nomClass">Speaking</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/9480801520?pwd=Q2dEQ214bVNUNi9lQm9FK3dVcC9SZz09">Access class</a>
+                        <br>
+                        <span>ID: 948 080 1520</span>
+                        <br>
+                        <span>Password: 9Dk3s7</span>
+                        <br>
+                        <span>Teacher: Linda Ester</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="num">3</span>
+                        <br>
+                        <span class="hour">9:00 - 9:40</span>
+                    </td>
+                    <td class="art">
+                        <span class="nomClass">Art</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4794982985?pwd=OEZReVpTZ2JuUFVuaXNvbE8yU1Z0dz09">Access class</a>
+                        <br>
+                        <span>ID: 479 498 2985</span>
+                        <br>
+                        <span>Password: 3M1mfk</span>
+                        <br>
+                        <span>Teacher: Mariana Palacios</span>
+                    </td>
+                    <td class="life_science">
+                        <span class="nomClass">Life Science</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/7172051775?pwd=dmQ4M2R6RmNvMFJZQzUwbzhvNzVEZz09">Access class</a>
+                        <br>
+                        <span>ID: 717 205 1775</span>
+                        <br>
+                        <span>Password: ISSM4A</span>
+                        <br>
+                        <span>Teacher: Miriam Galeano Gaekel</span>
+                    </td>
+
+                    <td class="espanol">
+                        <span class="nomClass">Español</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4864911605?pwd=bTZYYkp5Rm5NZitCRk1vQTVScHlwUT09">Access class</a>
+                        <br>
+                        <span>ID: 486 491 1605</span>
+                        <br>
+                        <span>Password: ESP3456</span>
+                        <br>
+                        <span>Teacher: Kelyn Medina</span>
+                    </td>
+
+                    <td class="espanol">
+                        <span class="nomClass">Español</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4864911605?pwd=bTZYYkp5Rm5NZitCRk1vQTVScHlwUT09">Access class</a>
+                        <br>
+                        <span>ID: 486 491 1605</span>
+                        <br>
+                        <span>Password: ESP3456</span>
+                        <br>
+                        <span>Teacher: Kelyn Medina</span>
+                    </td>
+
+                    <td class="religion">
+                        <span class="nomClass">Religión</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/75674297138?pwd=T2lNYzJ6OGt5ZEJyOHhhZWlvaytHZz09">Access class</a>
+                        <br>
+                        <span>ID: 756 7429 7138</span>
+                        <br>
+                        <span>Password: SfARt2</span>
+                        <br>
+                        <span>Teacher: Leysis Alvarado</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="num">4</span>
+                        <br>
+                        <span class="hour">10:00 - 10:40</span>
+                    </td>
+                    <td rowspan="2" class="reading">
+                        <span class="nomClass">Reading</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/77052873665?pwd=RGhNWHBDcTA2UGI1UVFPcWFEZ2Y1QT09">Access class</a>
+                        <br>
+                        <span>ID:  770 5287 3665</span>
+                        <br>
+                        <span>Password: ISSM</span>
+                        <br>
+                        <span>Teacher: Amarilis Suyapa Lopez Ortiz</span>
+                    </td>
+                    <td class="language">
+                        <span class="nomClass">Language</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/6971056670?pwd=UjV6QW1Rd3JzbDNXV0F4bk1adXFKdz09">Access class</a>
+                        <br>
+                        <span>ID: 697 105 6670</span>
+                        <br>
+                        <span>Password: ISSM456</span>
+                        <br>
+                        <span>Teacher: Kenia Patricia</span>
+                    </td>
+
+                    <td class="math">
+                        <span class="nomClass">Mathematics</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4585237845?pwd=Tjk0OWJJNnNRZUZZczZPMU0yd05xUT09">Access class</a>
+                        <br>
+                        <span>ID: 458 523 7845</span>
+                        <br>
+                        <span>Password: 6BVaC0</span>
+                        <br>
+                        <span>Teacher: Evelyn Ramos</span>
+                    </td>
+                    <td rowspan="2" class="math">
+                        <span class="nomClass">Mathematics</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4585237845?pwd=Tjk0OWJJNnNRZUZZczZPMU0yd05xUT09">Access class</a>
+                        <br>
+                        <span>ID: 458 523 7845</span>
+                        <br>
+                        <span>Password: 6BVaC0</span>
+                        <br>
+                        <span>Teacher: Evelyn Ramos</span>
+                    </td>
+                    <td class="language">
+                        <span class="nomClass">Language</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/6971056670?pwd=UjV6QW1Rd3JzbDNXV0F4bk1adXFKdz09">Access class</a>
+                        <br>
+                        <span>ID: 697 105 6670</span>
+                        <br>
+                        <span>Password: ISSM456</span>
+                        <br>
+                        <span>Teacher: Kenia Patricia</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="num">5</span>
+                        <br>
+                        <span class="hour">11:00 - 11:40</span>
+                    </td>
+                    <td class="blank">
+                        <!--En blanco-->
+                    </td>
+                    <td class="spelling">
+                        <span class="nomClass">Spelling</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4673647777?pwd=NE5QNTRwRWtQeDdHQWJqOVIyUHRJZz09">Access class</a>
+                        <br>
+                        <span>ID: 467 364 7777</span>
+                        <br>
+                        <span>Password: spelling</span>
+                        <br>
+                        <span>Teacher: Wendy Matamoros</span>
+                    </td>
+                    <td class="pe">
+                        <span class="nomClass">Eduación Física</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/75483414202?pwd=NXAyN3lTZlE3S1p4NUc5ZFh3THhRQT09">Access class</a>
+                        <br>
+                        <span>ID: 754 8341 4202</span>
+                        <br>
+                        <span>Password: Deportes</span>
+                        <br>
+                        <span>Teacher: Alejandro Castillo / Louis Elvir</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="num">6</span>
+                        <br>
+                        <span class="hour">12:00 - 12:40</span>
+                    </td>
+                    <td colspan="5" class="lunch">
+                        <span>Lunch</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="num">7</span>
+                        <br>
+                        <span class="hour">13:00 - 13:40</span>
+                    </td>
+                    <td class="ibec">
+                        <span class="nomClass">IBEC</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/71031917834?pwd=aXBvN0VadHpGL3orUVV6RjBYQjZQZz09">Access class</a>
+                        <br>
+                        <span>ID: 710 3191 7834</span>
+                        <br>
+                        <span>Password: 0qtxGd</span>
+                        <br>
+                        <span>Teacher: Karen Vanessa Bonilla</span>
+                    </td>
+                    <td class="blank">
+                        <!--En blanco-->
+                    </td>
+                    <td class="blank">
+                        <!--En blanco-->
+                    </td>
+                    <td class="blank">
+                        <!--En blanco-->
+                    </td>
+                    <td class="spelling">
+                        <span class="nomClass">Spelling</span>
+                        <br>
+                        <a href="https://us04web.zoom.us/j/4673647777?pwd=NE5QNTRwRWtQeDdHQWJqOVIyUHRJZz09">Access class</a>
+                        <br>
+                        <span>ID: 467 364 7777</span>
+                        <br>
+                        <span>Password: spelling</span>
+                        <br>
+                        <span>Teacher: Wendy Matamoros</span>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+
+    <script>
+        let clases = document.getElementsByClassName('clase');
+
+        for (i = 0; i < clases.length; i++) {
+            clases[i].addEventListener('click', function() {
+                let link = document.querySelector('.clase > a');
+                let nomCl = document.querySelector('.clase > span:first-child').innerHTML;
+
+                let res = confirm('¿Desea ingresar a la clase de ' + nomCl + '?');
+
+                if (res) {
+                    window.open(link);
+                }
+            })
+        }
+    </script>
+
+</body>
+
+</html>
