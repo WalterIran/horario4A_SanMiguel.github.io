@@ -100,7 +100,7 @@ tr:nth-child(6) span {
 }
 
 td:not(:first-child) {
-    width: 18%;
+    width: 19%;
     cursor: pointer;
     transition: background-color 1s ease;
 }
