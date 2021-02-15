@@ -1,0 +1,110 @@
+* {
+    font-size: 0.95rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 70px;
+    background-color: #006ba1;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+body {
+    background-color: #fefec8;
+}
+
+header>* {
+    height: 100%;
+    font-size: 3rem;
+    color: #eee;
+}
+
+header h1 {
+    vertical-align: middle;
+}
+
+table {
+    border-spacing: 0px;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2rem;
+    background-color: #00000086;
+    border-color: black;
+    color: #eee;
+}
+
+table thead tr th {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #6699cc;
+}
+
+#encabezadoTabla {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #006ba1;
+}
+
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+.nomClass {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+table tbody tr td:first-child {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    width: 10%;
+    background-color: #6699cc;
+}
+
+.num {
+    font-size: 1.2rem;
+}
+
+td a {
+    text-decoration: none;
+    color: #eee;
+}
+
+tr:not(:nth-child(6)) td:not(:first-child) span:last-child {
+    display: block;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+tr:nth-child(6) {
+    text-align: center;
+}
+
+tr:nth-child(6) span {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+td:not(:first-child) {
+    width: 18%;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+td {
+    padding: 0.4rem;
+}
