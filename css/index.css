@@ -10,7 +10,7 @@ header {
     text-align: justify;
     display: flex;
     justify-content: space-between;
-    padding: 1%;
+    padding: 1rem;
 }
 
 body {
@@ -25,6 +25,38 @@ header>* {
 
 header h1 {
     vertical-align: middle;
+}
+
+header > img{
+    border-radius: 100%;
+}
+
+main{
+    position: relative;
+}
+
+.vertical-title{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: rotate(-90deg) translate(50%, -50%);
+    animation-name: TitleBounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes TitleBounce {
+    0%, 100%{
+        top: 25%;
+    }50%{
+        top: 90%;
+    }
+}
+
+.vertical-title > h2{
+    font-size: 3rem;
+    color: red;
 }
 
 table {
